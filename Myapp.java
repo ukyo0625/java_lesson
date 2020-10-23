@@ -5,13 +5,16 @@ public class Myapp {
     //     System.out.println("Hi!");
     // }
 
-    public static void sayHi(String name) {
-        System.out.println("Hi! " + name);
+    public static String sayHi(String name) {
+        // System.out.println("Hi! " + name);
+        return "Hi! " + name;
     }
 
   public static void main(String[]args) {
     // sayHi();
-    sayHi("Tom");
-    sayHi("Bob");
+    // sayHi("Tom");
+    // sayHi("Bob");
+    String msg = sayHi("Steve");
+    System.out.println(msg);
   }
 }
